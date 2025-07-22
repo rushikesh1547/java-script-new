@@ -1,20 +1,22 @@
-const accountId = 144553
-let accountEmail = "rishi@gmail.com"
-var accountPassword = "23456"
-accountCity = "Chandrapur"
-let accountState;
+"use strict" //treat all JS code as newer version
 
-//accountId = 2//not allowed
+//alert(3+3)//we are using node js not browser
+
+let name = "Rushikesh"
+let age = "18"
+let isLoggedIn = false
+let state = null
+
+//number => 2 to power 53
+//bigint
+//string => ""
+//boolean => true/false
+//null => standalone value
+//undefined =>
+//symbol => unique
 
 
-accountEmail = "rsc@rsc.com"
-accountPassword = 150407
-accountCity = "Pune"
-console.log(accountId);
+//object
 
-/*
-Prefer not to use var
-because of issue in block scope and functional scope
-*/
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+console.log(typeof "Rushikesh")
