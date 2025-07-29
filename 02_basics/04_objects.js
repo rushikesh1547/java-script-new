@@ -45,11 +45,45 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('iwd'));
+// console.log(tinderUser.hasOwnProperty('id'));
+
+
+
+const course = {
+    coursename: "JS in Hindi",
+    price:"999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor } = course
+const {courseInstructor :teacher} = course
+
+console.log(teacher);
+
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "rushikesh") //Destructuring concept of react
+
+// {
+//    " name" : "Rushikesh",
+//     "coursename" : "JS in Hindi",
+//     "price": "free"
+// } //api in terms of object
+
+// [
+//     {},
+//     {},
+//     {}
+// ] //api in terms of array
 
