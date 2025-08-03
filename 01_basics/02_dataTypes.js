@@ -14,9 +14,9 @@ let state = null
 //null => standalone value
 //undefined =>
 //symbol => unique
-
-
 //object
 
 
 console.log(typeof "Rushikesh")
+
+console.log(typeof null)
