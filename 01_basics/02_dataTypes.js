@@ -19,4 +19,4 @@ let state = null
 
 console.log(typeof "Rushikesh")
 
-console.log(typeof null)
+console.log(typeof null) // null is an object
