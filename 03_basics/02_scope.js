@@ -14,7 +14,7 @@ if (true){
 
 // nested scope
 
-function one( ){
+function one(){
     const username = "Rushikesh"
 
     function two(){
@@ -27,3 +27,34 @@ function one( ){
     two()
     
 }
+
+// one()
+
+if (true) {
+    const username = "Rushikesh"
+
+    if (username === "Rushikesh"){
+        const website = "youtube"
+        // console.log(username + website);
+        
+    }
+    // console.log(website);
+    
+}
+
+// console.log(username);
+
+
+// +++++++++++++++++++++++++++++++ intresting +++++++++++++++++++++++++++
+console.log(addone(5));
+
+function addone(num){
+    return num + 1
+}
+
+
+addTwo(5)
+const addTwo = function(num){
+    return num + 2
+}
+
