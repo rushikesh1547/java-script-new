@@ -48,8 +48,8 @@ const chai =  ()  => {
  const addTwo=(num1 , num2) =>  ({username: "Rushikesh"})
 
 
-console.log(addTwo(4,5))
+// console.log(addTwo(4,5))
 
 const myArray = [2 ,5 ,3 ,7 ,8]
 
-myArray.forEach()
+// myArray.forEach()
