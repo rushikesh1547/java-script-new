@@ -9,3 +9,16 @@
 
 # why use OOP
 
+Object literal
+
+-Constructor function
+-Prototypes
+-Classes
+-Instsances (new , this)
+
+# 4 pillars
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
